@@ -1,79 +1,235 @@
-<<<<<<< HEAD
-# 🛡️ CitizenCare: Tactical Municipal Oversight
+🌆 CitizenCare — Smart Civic Grievance Platform
 
-**CitizenCare** is a full-stack MERN application engineered for high-fidelity civic management. It empowers citizens to report localized incidents with precision geospatial placement and allows municipal authorities to manage resolutions through a premium, data-driven command center.
+🏆 Hackathon Runner-Up Project
 
-## 🚀 Vision
-To bridge the gap between civic grievances and administrative action using modern web technologies and intuitive, high-performance UI/UX.
+CitizenCare was recognized as a Runner-Up in a national-level hackathon for building a complete smart-city grievance management system with geospatial intelligence, administrative dashboards, and real-time civic issue tracking.
 
----
+The platform demonstrates a full Citizen → Admin → Officer workflow designed to improve municipal response efficiency and transparency.
 
-## 🛠️ Technological Architecture
 
-### Frontend (Intelligence Interface)
-- **Framework**: React.js with TailwindCSS v4
-- **Aesthetics**: Premium SaaS Design System (Glassmorphism, High-Depth Shadows)
-- **Animation**: Framer Motion for tactical transitions
-- **Geospatial**: Leaflet.js with custom-rendered SVG markers
-- **Icons**: Lucide-React for clean iconography
 
-### Backend (Response Engine)
-- **Runtime**: Node.js & Express.js
-- **Database**: MongoDB with **2dsphere Geospatial Indexing**
-- **Security**: JWT-based stateless authentication
-- **Analytics**: Integrated KPI tracking and priority scoring engines
 
----
 
-## ✨ Key Capabilities
 
-- **Command Center Dashboard**: A glass-morphic interface for admins to track grievance hotpots, department KPIs, and personnel efficiency.
-- **Geospatial Intelligence**: Real-time map-based reporting with precise latitude/longitude synchronization.
-- **Evidence Protocols**: Enhanced drag-and-drop upload interface for visual evidence (Photo/Video) of infrastructure decay.
-- **Tactical Priority Engine**: Automatic categorization and severity assessment (Low/Medium/High/Critical) to optimize resource deployment.
-- **Personnel Hub**: Manage specialized municipal sectors and individual officers with trust-scoring and re-assignment protocols.
 
----
 
-## 🏁 Operational Setup
+🚀 Overview
 
-### 1. Repository Synchronization
-```bash
+CitizenCare is a full-stack Smart City Grievance Management Platform that enables citizens to report civic issues and allows municipal authorities to resolve them efficiently through a powerful data-driven command center.
+
+The system integrates geospatial mapping, complaint lifecycle tracking, officer task assignment, and municipal analytics into one unified platform.
+
+🧠 Key Features
+🧍 Citizen Portal
+
+Citizens can easily report civic issues and monitor progress.
+
+Features:
+
+📍 Map-based complaint reporting
+
+📷 Upload photo evidence
+
+📝 Detailed grievance descriptions
+
+📊 Complaint tracking dashboard
+
+🗺 Complaint hotspot visualization
+
+⭐ Feedback after resolution
+
+🏛 Admin Command Center
+
+A powerful dashboard designed for municipal authorities.
+
+Capabilities:
+
+Monitor all complaints across the city
+
+Assign complaints to officers
+
+Manage departments and personnel
+
+Analyze complaint trends
+
+Track resolution performance
+
+Identify civic infrastructure hotspots
+
+👮 Officer Task Management
+
+Officers receive and resolve complaints assigned by administrators.
+
+Features:
+
+Assigned complaint dashboard
+
+Status updates and progress tracking
+
+Resolution proof uploads
+
+Workload monitoring
+
+Performance analytics
+
+🗺 Geospatial Intelligence
+
+CitizenCare integrates interactive map-based monitoring to visualize civic issues across the city.
+
+Capabilities:
+
+Complaint location pinning
+
+Real-time complaint markers
+
+Complaint density heatmaps
+
+Region-wise monitoring
+
+Infrastructure hotspot detection
+
+Built using:
+
+Leaflet + OpenStreetMap
+
+🔄 Complaint Lifecycle
+
+The system follows a structured grievance resolution workflow.
+
+Citizen submits complaint
+        ↓
+Complaint stored in database
+        ↓
+Admin reviews complaint
+        ↓
+Admin assigns officer
+        ↓
+Officer resolves issue
+        ↓
+Citizen receives update
+        ↓
+Citizen submits feedback
+🏗 System Architecture
+Frontend (React + TailwindCSS)
+        ↓
+Backend API (Node.js + Express)
+        ↓
+MongoDB Database
+        ↓
+Geospatial Engine (Leaflet + OpenStreetMap)
+        ↓
+Analytics & Monitoring Dashboards
+⚙️ Technology Stack
+Frontend
+
+React.js
+
+TailwindCSS
+
+Framer Motion
+
+React Router
+
+Leaflet.js (Maps)
+
+Backend
+
+Node.js
+
+Express.js
+
+JWT Authentication
+
+Database
+
+MongoDB
+
+Geospatial Indexing (2dsphere)
+
+📊 Platform Modules
+Module	Description
+Citizen Portal	Submit and track grievances
+Admin Dashboard	Manage complaints and assign officers
+Officer Portal	Handle assigned complaints
+Analytics Engine	Complaint statistics and trends
+Geospatial Engine	Complaint mapping and hotspot detection
+📸 Platform Preview
+Citizen Dashboard
+
+Admin Command Center
+
+Complaint Map
+
+(Add your screenshots inside a screenshots folder in the repository.)
+
+📦 Installation
+
+Clone the repository
+
 git clone https://github.com/Abhinay-12-k/citizencare.git
 cd citizencare
-```
-
-### 2. Backend Initialization
-```bash
+Backend Setup
 cd backend
 npm install
-# Create .env with MONGODB_URI and JWT_SECRET
-npm run dev
-```
 
-### 3. Frontend Deployment
-```bash
-cd ../frontend
+Create a .env file
+
+MONGODB_URI=your_mongodb_connection
+JWT_SECRET=your_secret
+
+Run backend server
+
+npm run dev
+Frontend Setup
+cd frontend
 npm install
 npm run dev
-```
+🔑 Demo Credentials
+Role	Email	Password
+Admin	admin@city.gov
+	password123
+Citizen	alex@gmail.com
+	password123
+Officer	john@pwd.gov
+	password123
+🎯 Example Demo Workflow
 
-### 4. Database Seeding
-```bash
-# Run from project root
-node seed.js
-```
+Citizen reports a civic issue using map-based location.
 
----
+Complaint is stored in the system.
 
-## 🔐 Credentials (Simulated Environment)
-- **Admin**: `admin@city.gov` / `password123`
-- **Citizen**: `alex@gmail.com` / `password123`
-- **Officer**: `john@pwd.gov` / `password123`
+Admin reviews and assigns it to an officer.
 
----
+Officer resolves the issue and uploads proof.
 
-*Generated by Antigravity for the CitizenCare Initiative.*
-=======
-# Citizen-Care
->>>>>>> 631803681cccdcb445b852eabb8a64c8b0542864
+Citizen receives update and provides feedback.
+
+🔮 Future Enhancements
+
+AI-based complaint categorization
+
+Predictive infrastructure maintenance
+
+Mobile application
+
+Smart city IoT integrations
+
+Automated complaint prioritization
+
+🤝 Contributing
+
+Contributions are welcome.
+
+Steps:
+
+Fork the repository
+Create a feature branch
+Commit your changes
+Submit a pull request
+📜 License
+
+MIT License.
+
+👨‍💻 Author
+
+Abhinay Kamagonda
