@@ -4,14 +4,7 @@
 
 CitizenCare was recognized as a Runner-Up in a national-level hackathon for building a complete smart-city grievance management system with geospatial intelligence, administrative dashboards, and real-time civic issue tracking.
 
-The platform demonstrates a full Citizen → Admin → Officer workflow designed to improve municipal response efficiency and transparency.
-
-
-
-
-
-
-
+The platform demonstrates a full Citizen → Admin → Officer workflow designed to improve municipal transparency and response efficiency.
 
 🚀 Overview
 
